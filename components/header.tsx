@@ -7,7 +7,7 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className='relative flex justify-between items-center py-4 px-6 bg-transparent z-50'>
+    <header className='relative flex justify-between items-center py-6 px-6 bg-transparent z-50'>
       <h3 className='font-bold text-white uppercase tracking-widest'>Emma Schönbeck</h3>
 
       <div className='flex items-center gap-8'>
