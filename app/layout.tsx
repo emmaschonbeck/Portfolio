@@ -4,6 +4,8 @@ import "./globals.css";
 import { Header } from "@/components/header";
 import StarBackground from "@/components/StarBackground";
 import Footer from "@/components/Footer";
+import AmbientBackground from "@/components/AmbientBackground";
+import DigitalRain from "@/components/DigitalRain";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +32,9 @@ export default function RootLayout({
       <body
         className={`bg-black text-white ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <StarBackground />
+        {/* <StarBackground /> */}
+        {/* <AmbientBackground /> */}
+        {/* <DigitalRain /> */}
         <div className="max-w-7xl mx-auto px-4 md:px-12 lg:px-20">
           <Header />
           <main>
